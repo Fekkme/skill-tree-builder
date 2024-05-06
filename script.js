@@ -5,7 +5,7 @@ function handleClick(event) {
 }
 
 // Get the div element by its ID
-const divElement = document.getElementById('myDiv');
+const divElement = document.getElementById('skill-1');
 
 // Check if the div element exists
 if (divElement) {
