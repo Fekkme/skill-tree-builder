@@ -1,24 +1,16 @@
-// Define a class for the div element
-class DivElement {
-    constructor(private element: HTMLElement) {
-        // Add event listener for click event
-        this.element.addEventListener('click', this.handleClick.bind(this));
-    }
-
-    // Method to handle click event
-    private handleClick(event: MouseEvent) {
-        console.log('Div clicked!');
-        // You can add your logic here for what happens when the div is clicked
-    }
+// Define a function to handle click event
+function handleClick(event) {
+    console.log('Div clicked!');
+    // You can add your logic here for what happens when the div is clicked
 }
 
 // Get the div element by its ID
-const divElement = document.getElementById('skill-1');
+const divElement = document.getElementById('myDiv');
 
 // Check if the div element exists
 if (divElement) {
-    // Create an instance of the DivElement class
-    const myDivElement = new DivElement(divElement);
+    // Add event listener for click event
+    divElement.addEventListener('click', handleClick);
 } else {
     console.error('Div element not found!');
 }
