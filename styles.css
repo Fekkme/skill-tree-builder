@@ -1,0 +1,28 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flex container */
+.flex-container {
+    display: flex; /* Set display to flex */
+    flex-wrap: wrap; /* Allow flex items to wrap if necessary */
+    justify-content: space-around; /* Align items along the main axis */
+    align-items: center; /* Align items along the cross axis */
+    height: 200px; /* Just for demonstration */
+    background-color: #f0f0f0; /* Just for demonstration */
+}
+
+/* Flex items */
+.flex-item {
+    width: 100px; /* Width of each item */
+    height: 100px; /* Height of each item */
+    margin: 10px; /* Margin around each item */
+    background-color: #3498db; /* Background color of each item */
+    color: #fff; /* Text color */
+    display: flex; /* Nested flex container */
+    justify-content: center; /* Align text horizontally */
+    align-items: center; /* Align text vertically */
+}
