@@ -12,7 +12,7 @@
     justify-content: space-around; /* Align items along the main axis */
     align-items: center; /* Align items along the cross axis */
     height: 200px; /* Just for demonstration */
-    background-color: #f0f0f0; /* Just for demonstration */
+    background-color: #a61e1e; /* Just for demonstration */
 }
 
 /* Flex items */
