@@ -2,6 +2,9 @@
 function handleClick(event) {
     console.log('Div clicked');
     // You can add your logic here for what happens when the div is clicked
+    var div = document.getElementById("skill-1");
+    var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+    div.style.backgroundColor = randomColor;
 }
 
 // Get the div element by its ID
