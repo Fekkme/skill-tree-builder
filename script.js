@@ -1,5 +1,5 @@
 // Define a function to handle click event
-function handleClick(event, const divElement) {
+function handleClick(event, divElement) {
     console.log('Div clicked');
     // You can add your logic here for what happens when the div is clicked
     var div = document.getElementById(divElement);
