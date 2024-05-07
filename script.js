@@ -9,7 +9,9 @@ function handleClick(event) {
 
 // Get the div element by its ID
 const divElement = document.getElementById('skill-1');
+const divElement2 = document.getElementById('skill-2');
 
+alert("change1")
 // Check if the div element exists
 if (divElement) {
     // Add event listener for click event
